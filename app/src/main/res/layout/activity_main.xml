@@ -4,13 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.ravi.compassdirection.MainActivity">
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_keyboard_arrow_up_black_24dp"
+        android:scaleX="4"
+        android:scaleY="4"
+        android:layout_above="@+id/direction"
+        android:layout_centerInParent="true"/>
     <TextView
         android:id="@+id/direction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:textSize="64dip"
+        android:textSize="64sp"
         android:textStyle="bold"/>
     <TextView
         android:id="@+id/values"
